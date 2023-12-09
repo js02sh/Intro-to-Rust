@@ -10,4 +10,5 @@ edition = "2021"
 [workspace]
 members = [
     "ex1",
+    "control_flow",
 ]
