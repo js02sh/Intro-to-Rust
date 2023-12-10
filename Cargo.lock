@@ -7,5 +7,9 @@ name = "control_flow"
 version = "0.1.0"
 
 [[package]]
+name = "enums_options"
+version = "0.1.0"
+
+[[package]]
 name = "ex1"
 version = "0.1.0"
