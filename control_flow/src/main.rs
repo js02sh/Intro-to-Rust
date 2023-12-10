@@ -52,18 +52,36 @@ fn main() {
 
     let p = 5;
     match p {
-        n @ 1 ..= 12 => println!("n: {}", n),
-        n @ 13 ..= 19 => println!("n: {}", n),
+        n @ ..=3 => println!("n: {}", n),
+        n @ ..= 19 => println!("n is: {}", n),
         _ => println!("no match"),
     }
 
     let q = 5;
     let n = match q {
-        n @ 1..=12 => n,
+        n @ 1..=12 => n+10,
         n @ 13..=19 => n,
         _ => 0,
     };
 
     println!("n: {}", n);
+
+    let p2 = (5, 3);
+    let q2 = match p2 {
+        //(n, o) if n >= 1 && n <= 12 && o >= 1 && o <= 13 => (n, o), // Match tuples within specified range
+        (n,o) if n>1 => (n+1 , o),
+        (n,o) if n<5 => (n,o),
+        _ => (0, 0), // Return a tuple, not an integer
+    };
+
+    println!("q2: {:?}", q2);
+
+
+    // let p2 = (5, 3);
+    // let q2 = match p2 {
+    //     (n, o) @ (1..=12, 1..=13) => (n,o), // Match tuples within specified range
+    //     _ => 0,
+    // };
+    
 
 }
