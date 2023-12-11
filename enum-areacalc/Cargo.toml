@@ -1,5 +1,5 @@
 [package]
-name = "enums_options"
+name = "enum-areacalc"
 version = "0.1.0"
 edition = "2021"
 
