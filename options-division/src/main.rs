@@ -7,7 +7,7 @@ fn division(x: f64, y: f64) -> Option<f64> {
 }
 
 fn main() {
-    let res = division(5.1, 7.0);
+    let res = division(5.1, 7.3);
     match res {
         Some(x) => println!("{:.10}", x),
         None => println!("cannot divide by 0"),
