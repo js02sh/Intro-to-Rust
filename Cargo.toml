@@ -2,6 +2,7 @@
 [workspace]
 members = [
     "ex1",
+    "structs-area0",
     "control_flow",
     "match_ex",
     "options-division",
