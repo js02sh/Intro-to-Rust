@@ -1,3 +1,5 @@
+//use emums for Polymorphism 
+
 enum Shape {
     Rectangle {width: u32, height: u32},
     Square(u32),

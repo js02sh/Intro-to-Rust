@@ -3,8 +3,10 @@
 members = [
     "ex1",
     "control_flow",
-    "enums_1",
     "match_ex",
-    "enum-areacalc"
+    "options-division",
+    "enums-keyboard",
+    "enum-areacalc",
+
 ]
 resolver = "2"
