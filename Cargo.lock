@@ -27,5 +27,9 @@ name = "options-division"
 version = "0.1.0"
 
 [[package]]
+name = "struct-areacalc"
+version = "0.1.0"
+
+[[package]]
 name = "structs-area0"
 version = "0.1.0"

@@ -8,6 +8,7 @@ members = [
     "options-division",
     "enums-keyboard",
     "enum-areacalc",
+    "struct-areacalc",
 
 ]
 resolver = "2"
