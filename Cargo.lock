@@ -33,3 +33,7 @@ version = "0.1.0"
 [[package]]
 name = "structs-area0"
 version = "0.1.0"
+
+[[package]]
+name = "vector-basic"
+version = "0.1.0"

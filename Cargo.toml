@@ -9,6 +9,7 @@ members = [
     "enums-keyboard",
     "enum-areacalc",
     "struct-areacalc",
+    "vector-basic",
 
 ]
 resolver = "2"
