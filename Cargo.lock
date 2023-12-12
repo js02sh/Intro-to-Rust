@@ -11,11 +11,23 @@ name = "enum-areacalc"
 version = "0.1.0"
 
 [[package]]
+name = "enum-result"
+version = "0.1.0"
+
+[[package]]
 name = "enums-keyboard"
 version = "0.1.0"
 
 [[package]]
 name = "ex1"
+version = "0.1.0"
+
+[[package]]
+name = "hashmap-basic"
+version = "0.1.0"
+
+[[package]]
+name = "if-while-let"
 version = "0.1.0"
 
 [[package]]
@@ -32,6 +44,10 @@ version = "0.1.0"
 
 [[package]]
 name = "structs-area0"
+version = "0.1.0"
+
+[[package]]
+name = "type-casting"
 version = "0.1.0"
 
 [[package]]

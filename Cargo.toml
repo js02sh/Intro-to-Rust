@@ -11,6 +11,10 @@ members = [
     "struct-areacalc",
     "vector-basic",
     "vector-enum",
+    "hashmap-basic",
+    "if-while-let",
+    "type-casting",
+    "enum-result",
 
 ]
 resolver = "2"
